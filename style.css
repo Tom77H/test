@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: #ffff;
+}
+header{
+    background-color: #2E3192;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+    background-color: #2E3192;
+    margin-top: -5px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background 300ms ease;
+}
+li :hover {
+    background: #252764;
+    transform: scale(1.2)
+}
+
+header img {
+    scale: 24%;
+    margin: -2cm;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+body{
+    background: #252764;
+    background-repeat: no-repeat;
+}
+.indexag{
+    background-image: url(fotos/home_ag_1.png);
+}
+.gamesag{
+    background-image: url(fotos/games_ag_1.png);
+}
+.lineupag{
+    background-image: url(fotos/lineup_ag_1.png);
+    
+}
+.overonsag{
+    background-image: url(fotos/overons_ag_1.png);
+}
+.spelerag{
+    background-image: url(fotos/speler_ag_1.png);
+}
+h1 {
+    font-size: 8em;
+}
+h2{
+    font-size: 3em;
+}
+main h1{
+    margin-left: 2em;
+}
+main h2{
+    margin-left: 10em;
+    margin-bottom: 1em;
+}
+div {
+    display: flex;
+}
+.fototeamindex figure img {
+    width: 60%;
+    margin-left: 10em;
+    border: 0.5em solid #0071BC;
+    border-radius: 3em;
+}
+.fototeamindex img {
+    width: 20%;
+}
+.fototeamindex p{
+    width: 15%;
+    margin: 1em;
+    background-color: #252764;
+    border: 1em solid #252764;
+    border-radius: 1em;
+    padding: 5px;
+    font-size: 1.5em;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.fotosindex figure img {
+    width: 50%;
+
+}
